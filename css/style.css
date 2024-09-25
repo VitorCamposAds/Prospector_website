@@ -302,12 +302,12 @@
 
 .header-carousel .owl-nav .owl-prev {
     bottom: 30px;
-    left: 30px;
-    margin-left: 90px;
+    left: 0px;
+    margin-left: 30px;
 }
 .header-carousel .owl-nav .owl-next {
     bottom: 30px;
-    left: 30px;
+    right: 20px;
 }
 
 .header-carousel .owl-nav .owl-prev:hover,
