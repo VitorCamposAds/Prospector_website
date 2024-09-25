@@ -986,7 +986,7 @@
     padding: 12px 19px;
     margin-bottom: 15px;
     border-radius: inherit;
-    color: #000;
+    color: #458fff;
     width: 100%;
     height: 44px;
 }
@@ -994,7 +994,7 @@
 .contact_bg .textarea {
     margin-bottom: 15px;
     padding: 15px 19px;
-    color: #000 !important;
+    color: #458fff !important;
     width: 100%;
     border: #fffefe solid 1px;
     border-radius: inherit;
@@ -1003,7 +1003,7 @@
 .contact_bg .send {
     font-size: 16px;
     background-color: #fff;
-    color: #000;
+    color: #458fff;
     max-width: 171px;
     width: 100%;
     padding: 11px 0;
@@ -1012,7 +1012,7 @@
 }
 
 .contact_bg .send:hover {
-    background-color: #012c33;
+    background-color: #458fff;
     color: #fff;
     transition: all 0.3s ease-in;
 }
