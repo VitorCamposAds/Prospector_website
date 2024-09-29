@@ -275,14 +275,35 @@
 /*** Navbar End ***/
 
 /* logo */
+
+/* logo */
 .logo {
     display: block; /* torna a imagem um bloco */
     margin: 0 auto; /* centraliza horizontalmente */
     width: 150px; /* ajuste a largura conforme necessário */
     height: 150px; /* mantém a proporção da imagem */
-    mix-blend-mode: multiply;
+    mix-blend-mode: multiply; /* mantém o blend */
+    transition: transform 0.2s ease; /* animação para a logo */
 }
-/*logo end */
+
+.logo:hover {
+    transform: scale(1.05); /* leve aumento ao passar o mouse */
+}
+/* logo end */
+
+/* Container para a logo */
+.logo-container {
+    background-color: #e8ebf0; /* cor de fundo */ 
+    padding: 20px; /* espaço ao redor da imagem */
+    border-radius: 10px; /* bordas arredondadas */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* sombra mais suave */
+    transition: box-shadow 0.3s ease; /* animação para a sombra */
+}
+
+.logo-container:hover {
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2); /* sombra mais intensa ao passar o mouse */
+}
+
 
 /*** Carousel Hero Header Start ***/
 .header-carousel .header-carousel-item img {
